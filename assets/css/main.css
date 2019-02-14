@@ -10,8 +10,9 @@
 	background-color: #18769d;
 	border: none;
 	color: #fbb21b;
-
-	font-size: 12px;
+	padding: 7px;
+	margin: 5px;
+	font-size: 15px;
 	cursor: pointer;
   }
 html, body, div, span, applet, object,
