@@ -6,7 +6,14 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.btn {
+	background-color: #18769d;
+	border: none;
+	color: #fbb21b;
 
+	font-size: 12px;
+	cursor: pointer;
+  }
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -970,7 +977,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1024px) {
-
+                        #mobile-content { display: none; }  /* show it on small screens */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1216,6 +1223,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+                        #mobile-content { display: none; }  /* show it on small screens */
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1460,6 +1468,8 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
+                        #mobile-content { display: block; }  /* show it on small screens */
 
 			.row {
 				display: flex;
@@ -2849,6 +2859,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 1680px) {
 
+                        #mobile-content { display: none; }  /* show it on small screens */
 		/* Basic */
 
 			body, input, select, textarea {
@@ -2886,6 +2897,7 @@ input, select, textarea {
 /* Large */
 
 	@media screen and (max-width: 1280px) {
+                        #mobile-content { display: none; }  /* show it on small screens */
 
 		/* Basic */
 
@@ -3227,6 +3239,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		/* Basic */
+                        #mobile-content { display: block; }  /* show it on small screens */
 
 			html, body {
 				min-width: 320px;
