@@ -2038,6 +2038,10 @@ input, select, textarea {
 
 /* Image */
 
+.sponsor  {
+	height: auto;
+	width: 20%;
+}
 	.image {
 		border-radius: 5px;
 		border: 0;
@@ -2197,6 +2201,7 @@ input, select, textarea {
 			.image.main img {
 				border-radius: 0;
 			}
+
 
 /* List */
 
