@@ -2037,7 +2037,28 @@ input, select, textarea {
 		}
 
 /* Image */
+.main-title {
+	background: #002e5d;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
 
+}
+.event-csnap {
+	font-size: 20pt;
+	color: #ffffff;
+}
+.event-title {
+	padding-top: 10px;
+	font-size: 15pt;
+	color: #ffffff;
+}
+.event-subtitle {
+	padding-top: 10px;
+	font-size: 15pt;
+	color: #ffffff;
+}
 .sponsor  {
 	height: auto;
 	width: 20%;
